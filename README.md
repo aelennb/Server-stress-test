@@ -4,6 +4,6 @@
 
 安装命令：```apt install stress-ng -y```
 
-下载脚本：curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/main/yali.sh
+下载脚本：```curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/main/yali.sh```
 
 下载后使用编辑器编辑配置

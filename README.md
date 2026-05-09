@@ -12,6 +12,7 @@
 
 # 依赖准备
 ```apt install shc -y```
+
 ```apt install gcc make -y```
 
 # 编译脚本

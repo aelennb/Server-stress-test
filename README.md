@@ -10,6 +10,10 @@
 
 伪装方法：
 
+# 依赖准备
+```apt install shc -y```
+```apt install gcc make -y```
+
 # 编译脚本
 ```shc -f yali.sh```
 # 得到 yali.sh.x 二进制程序

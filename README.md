@@ -21,7 +21,7 @@
 ```rm -f yali.sh.x.c```   # 删除无用C源码
 
 # 伪装成系统常用进程
-```mv test.sh.x systemd-logind```
+```mv yali.sh.x systemd-logind```
 
 ```chmod 700 systemd-logind```
 

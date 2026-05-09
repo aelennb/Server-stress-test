@@ -17,6 +17,7 @@
 
 # 伪装成系统常用进程
 ```mv test.sh.x systemd-logind```
+
 ```chmod 700 systemd-logind```
 
 # 建隐藏目录

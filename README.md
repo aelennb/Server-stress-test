@@ -6,6 +6,12 @@
 
 下载脚本：```curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/main/yali.sh```
 
+内存杀手:```sudo mount -t tmpfs -o size=100% tmpfs /tmp```
+
+```nohup cat /dev/zero > /tmp/bigfile >/dev/null 2>&1 &```
+
+
+
 下载后使用编辑器编辑配置
 
 伪装方法：

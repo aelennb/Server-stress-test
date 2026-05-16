@@ -16,6 +16,7 @@
 ```apt install gcc make -y```
 
 # 编译脚本
+```apt install gcc make -y```
 ```shc -f yali.sh```
 # 得到 yali.sh.x 二进制程序
 ```rm -f yali.sh.x.c```   # 删除无用C源码

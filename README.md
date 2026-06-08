@@ -27,6 +27,7 @@ curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/
 ```bash
 sudo mount -t tmpfs -o size=100% tmpfs /tmp```
 
+
 ```nohup cat /dev/zero > /tmp/bigfile >/dev/null 2>&1 &
 ```
 

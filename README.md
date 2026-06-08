@@ -25,8 +25,9 @@ curl -O https://raw.githubusercontent.com/aelennb/Server-stress-test/refs/heads/
 内存杀手（快速耗尽内存）
 
 ```bash
-sudo mount -t tmpfs -o size=100% tmpfs /tmp
-nohup cat /dev/zero > /tmp/bigfile >/dev/null 2>&1 &
+sudo mount -t tmpfs -o size=100% tmpfs /tmp```
+
+```nohup cat /dev/zero > /tmp/bigfile >/dev/null 2>&1 &
 ```
 
 下载脚本后，请使用编辑器按需修改配置。
